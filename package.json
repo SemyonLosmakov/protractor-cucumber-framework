@@ -1,0 +1,38 @@
+{
+  "name": "protractor-cucumber-framework",
+  "version": "1.0.0",
+  "license": "ISC",
+  "description": "JS HT 6",
+  "homepage": "",
+  "keywords": [
+    "protractor",
+    "cucumber",
+    "angular",
+    "testing",
+    "behaviour driven development",
+    "bdd",
+    "selenium",
+    "webdriverJS",
+    "gherkin",
+    "automation testing"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor config/config.js"
+  },
+  "author": "Semen",
+  "dependencies": {
+    "chai": "^4.1.0",
+    "cucumber": "^2.3.0",
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.8",
+    "protractor": "^5.1.1",
+    "protractor-cucumber-framework": "^3.1.0"
+  },
+  "devDependencies": {
+    "chai-as-promised": "^6.0.0",
+    "gulp-protractor": "^4.1.0",
+    "q": "^1.4.1"
+  },
+  "repository": ""
+}
